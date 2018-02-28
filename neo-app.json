@@ -1,0 +1,58 @@
+{
+	"routes": [{
+		"path": "/sap/opu/odata",
+		"target": {
+			"type": "destination",
+			"name": "Northwind",
+			"entryPath": "/sap/opu/odata"
+		},
+		"description": "Northwind"
+	}, {
+		"path": "/orion",
+		"target": {
+			"type": "service",
+			"name": "orion"
+		},
+		"description": "Orion Service"
+	}, {
+		"path": "/resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/resources"
+		},
+		"description": "SAPUI5 Resources"
+	}, {
+		"path": "/test-resources",
+		"target": {
+			"type": "service",
+			"name": "sapui5",
+			"entryPath": "/test-resources"
+		},
+		"description": "SAPUI5 Test Resources"
+	}, {
+		"path": "/test-resources/sap/ushell/saul1",
+		"target": {
+			"type": "application",
+			"name": "saul1"
+		}
+	}, {
+		"path": "/saul1",
+		"target": {
+			"type": "application",
+			"name": "saul1"
+		}
+	}, {
+		"path": "/test-resources/sap/ushell/saul2",
+		"target": {
+			"type": "application",
+			"name": "saul2"
+		}
+	}, {
+		"path": "/saul2",
+		"target": {
+			"type": "application",
+			"name": "saul2"
+		}
+	}]
+}

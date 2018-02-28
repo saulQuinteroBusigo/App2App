@@ -1,0 +1,19 @@
+{
+	"applications": {
+
+		"saul1-display": {
+			"additionalInformation": "SAPUI5.Component=saul1",
+			"applicationType": "URL",
+			"url": "../../saul1",
+			"description": "description",
+			"title": "Saul1"
+		},
+		"saul2-display": {
+			"additionalInformation": "SAPUI5.Component=saul2",
+			"applicationType": "URL",
+			"url": "../../saul2",
+			"description": "description",
+			"title": "Saul2"
+		}
+	}
+}
